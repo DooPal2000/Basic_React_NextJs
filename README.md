@@ -1,7 +1,3 @@
-# Basic_React_NextJs
-
-
-
 # 처음 만난 리액트 + NextJS 기초강의 정리 리포지토리
 
 ## 소개
