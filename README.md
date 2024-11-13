@@ -4,20 +4,6 @@
 
 # 처음 만난 리액트 + NextJS 기초강의 정리 리포지토리
 
-
-# [React](https://react.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
-(https://github.com/facebook/react/blob/main/LICENSE) [![npm version]
-(https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) 
-[![(Runtime) Build and Test]
-(https://github.com/facebook/react/actions/workflows/runtime_build_and_test.yml/badge.svg
-)](https://github.com/facebook/react/actions/workflows/runtime_build_and_test.yml) [!
-[(Compiler) TypeScript]
-(https://github.com/facebook/react/actions/workflows/compiler_typescript.yml/badge.svg?branch=main)]
-(https://github.com/facebook/react/actions/workflows/compiler_typescript.yml) [![PRs Welcome]
-(https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
-
-
-
 ## 소개
 이 프로젝트는 React와 Next.js를 사용해 만든 웹 애플리케이션입니다. Next.js의 서버 사이드 렌더링(SSR) 기능과 클라이언트 사이드 렌더링(CSR)을 적절히 활용하여 SEO 최적화 및 빠른 사용자 경험을 제공합니다.
 
