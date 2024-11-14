@@ -6,20 +6,19 @@ import reportWebVitals from './reportWebVitals';
 
 import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
+import CommentList from './chatper_05/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function tick() {
-  root.render(
-    <React.StrictMode>
-      <Clock />
-      {/* <Library /> */}
-      {/* <App /> */}
-    </React.StrictMode>
-  );
-}
+root.render(
+  <React.StrictMode>
+    <CommentList />
+    {/* <Clock /> */}
+    {/* <Library /> */}
+    {/* <App /> */}
+  </React.StrictMode>
+);
 
-setInterval(tick, 1000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
