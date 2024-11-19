@@ -8,6 +8,8 @@ import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chatper_05/CommentList';
 import Accomodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ConfirmButton';
+import ConfirmButtonByFunction from './chapter_08/ConfirmButtonFunction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -17,7 +19,10 @@ root.render(
     {/* <Clock /> */}
     {/* <Library /> */}
     {/* <App /> */}
-    <Accomodate />
+    {/* <Accomodate /> */}
+    {/* <ConfirmButton /> */}
+    <ConfirmButtonByFunction />
+
 
   </React.StrictMode>
 );
