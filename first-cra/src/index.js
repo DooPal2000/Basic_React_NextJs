@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
-import CommentList from './chatper_05/CommentList';
+import CommentList from './chapter_05/CommentList';
 import Accomodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonByFunction from './chapter_08/ConfirmButtonFunction';
+import ToolBar from './chapter_09/Toolbar';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,9 +23,8 @@ root.render(
     {/* <App /> */}
     {/* <Accomodate /> */}
     {/* <ConfirmButton /> */}
-    <ConfirmButtonByFunction />
-
-
+    {/* <ConfirmButtonByFunction /> */}
+    <LandingPage />
   </React.StrictMode>
 );
 
