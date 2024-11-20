@@ -12,6 +12,7 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonByFunction from './chapter_08/ConfirmButtonFunction';
 import ToolBar from './chapter_09/Toolbar';
 import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,6 +26,7 @@ root.render(
     {/* <ConfirmButton /> */}
     {/* <ConfirmButtonByFunction /> */}
     <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>
 );
 
