@@ -11,7 +11,7 @@ export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 // 기존 Client 측 컴포넌트에서 Server 측 컴포넌트로 변경
 async function getMovies() {
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    await new Promise((resolve) => setTimeout(resolve, 2000));
     const response = await fetch(API_URL);
     const json = await response.json();
     return json;
