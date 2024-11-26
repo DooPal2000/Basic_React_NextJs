@@ -20,9 +20,6 @@ import { Suspense } from "react";
 
 // 이러한 이유들로 인해, 개별 컴포넌트를 사용하는 방식은 더 유연하고 효율적인 방법으로 간주됩니다.
 
-
-
-
 // async function getMovie(id: string) {
 //     await new Promise((resolve) => setTimeout(resolve, 2000));
 //     const response = await fetch(`${API_URL}/${id}`);
